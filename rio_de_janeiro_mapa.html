@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e570ff52bdc61901edc1316c722d2b70 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e570ff52bdc61901edc1316c722d2b70" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e570ff52bdc61901edc1316c722d2b70 = L.map(
+                "map_e570ff52bdc61901edc1316c722d2b70",
+                {
+                    center: [-22.9068, -43.1729],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3286bc234e3db1ba7480eb7327e92477 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3286bc234e3db1ba7480eb7327e92477.addTo(map_e570ff52bdc61901edc1316c722d2b70);
+        
+    
+            var marker_f8c92a152995d72dd9e568f556cd70f4 = L.marker(
+                [-22.9068, -43.1729],
+                {}
+            ).addTo(map_e570ff52bdc61901edc1316c722d2b70);
+        
+    
+            var icon_0dcddbf96ab792da3fb357c5529646a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8c92a152995d72dd9e568f556cd70f4.setIcon(icon_0dcddbf96ab792da3fb357c5529646a8);
+        
+    
+        var popup_e2bbb84456314199878b638795a7485b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c321af7b060bbfe7d3bba4b3204291c = $(`<div id="html_7c321af7b060bbfe7d3bba4b3204291c" style="width: 100.0%; height: 100.0%;">Rio de Janeiro</div>`)[0];
+                popup_e2bbb84456314199878b638795a7485b.setContent(html_7c321af7b060bbfe7d3bba4b3204291c);
+            
+        
+
+        marker_f8c92a152995d72dd9e568f556cd70f4.bindPopup(popup_e2bbb84456314199878b638795a7485b)
+        ;
+
+        
+    
+    
+            tile_layer_3286bc234e3db1ba7480eb7327e92477.addTo(map_e570ff52bdc61901edc1316c722d2b70);
+        
+    
+            var marker_fecaf335013420c0183b7a52324ffb81 = L.marker(
+                [-22.9068, -43.1729],
+                {}
+            ).addTo(map_e570ff52bdc61901edc1316c722d2b70);
+        
+    
+            var icon_3ac8aabd4b93c82a46e6d8c85dfb8e02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fecaf335013420c0183b7a52324ffb81.setIcon(icon_3ac8aabd4b93c82a46e6d8c85dfb8e02);
+        
+    
+        var popup_11e4a01e7af26d089b938639a10fba64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e0d3e4e5cb0f1781628ca162c5f627c = $(`<div id="html_2e0d3e4e5cb0f1781628ca162c5f627c" style="width: 100.0%; height: 100.0%;">Rio de Janeiro</div>`)[0];
+                popup_11e4a01e7af26d089b938639a10fba64.setContent(html_2e0d3e4e5cb0f1781628ca162c5f627c);
+            
+        
+
+        marker_fecaf335013420c0183b7a52324ffb81.bindPopup(popup_11e4a01e7af26d089b938639a10fba64)
+        ;
+
+        
+    
+    
+            tile_layer_3286bc234e3db1ba7480eb7327e92477.addTo(map_e570ff52bdc61901edc1316c722d2b70);
+        
+    
+            var marker_ded310bdefe502bbab3de588e40c041f = L.marker(
+                [-22.9068, -43.1729],
+                {}
+            ).addTo(map_e570ff52bdc61901edc1316c722d2b70);
+        
+    
+            var icon_000ca5f875c31ea51471eca50193a4b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ded310bdefe502bbab3de588e40c041f.setIcon(icon_000ca5f875c31ea51471eca50193a4b2);
+        
+    
+        var popup_aefd5fec2cba249329c977ae2a4d1862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c60b5cbaa72e3df069e9ea74681b07d = $(`<div id="html_3c60b5cbaa72e3df069e9ea74681b07d" style="width: 100.0%; height: 100.0%;">Rio de Janeiro</div>`)[0];
+                popup_aefd5fec2cba249329c977ae2a4d1862.setContent(html_3c60b5cbaa72e3df069e9ea74681b07d);
+            
+        
+
+        marker_ded310bdefe502bbab3de588e40c041f.bindPopup(popup_aefd5fec2cba249329c977ae2a4d1862)
+        ;
+
+        
+    
+</script>
+</html>
