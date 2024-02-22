@@ -12,7 +12,7 @@ Este projeto tem como objetivo colocar em prática os conhecimentos adquiridos d
 
 Para isso deve-se realiza o tratamento de dados e criação de uma rota otimizada de entregas de material didático em escolas da cidade do Rio de Janeiro.
 
-**Acesse o notebook do projeto [clicando aqui](graphs\rota.png).**
+**Acesse o notebook do projeto [clicando aqui](projeto.ipynb).**
 
 ### Contexto do Problema
 Você trabalha em uma consultoria de dados que foi contratada para realizar a distribuição de materiais didáticos nas escolas da cidade do Rio de Janeiro. Sua missão é realizar tratamentos nos dados de acordo com as normas de padrão definidas pelo cliente e encontrar qual a melhor rota que um caminhão deve realizar para entregar os materiais didáticos de forma a otimizar o seu percurso.
@@ -38,7 +38,8 @@ Como produto final, você deve entregar:
 
 ### Desafio
 Entregar um plot com a representação da melhor rota que você encontrou, por exemplo:
-<img src="rota.png"  width="70%" height="40%">
+
+<img src="graphs\rota.png"  width="70%" height="40%">
 
 ### Bibliotecas Python Utilizadas
 Para este projeto foram utilizadas as seguintes bibliotecas Python:
