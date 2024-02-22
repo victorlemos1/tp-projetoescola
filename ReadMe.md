@@ -12,7 +12,7 @@ Este projeto tem como objetivo colocar em prática os conhecimentos adquiridos d
 
 Para isso deve-se realiza o tratamento de dados e criação de uma rota otimizada de entregas de material didático em escolas da cidade do Rio de Janeiro.
 
-**Acesse o notebook do projeto [clicando aqui](projeto.ipynb).**
+**Acesse o notebook do projeto [clicando aqui](graphs\rota.png).**
 
 ### Contexto do Problema
 Você trabalha em uma consultoria de dados que foi contratada para realizar a distribuição de materiais didáticos nas escolas da cidade do Rio de Janeiro. Sua missão é realizar tratamentos nos dados de acordo com as normas de padrão definidas pelo cliente e encontrar qual a melhor rota que um caminhão deve realizar para entregar os materiais didáticos de forma a otimizar o seu percurso.
