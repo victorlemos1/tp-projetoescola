@@ -1,0 +1,39 @@
+Checklist
+
+-> Um arquivo csv no as linhas já estarão ordenas de acordo com a rota a ser seguida. 
+Além disso, os dados devem estar no padrão especificado abaixo e contendo as seguintes colunas: 
+
+(x) id da escola;
+
+(x) nome da escola;
+
+(x) tipo da escola (EM, CIEP ou colégio);
+
+(x) logradouro da entrega;
+
+(x) número (O logradouro da escola deve estar em uma coluna diferente do número;);
+
+(x) bairro;
+
+(x) subprefeitura;
+
+(x) latitude;
+
+(x) longitude;
+
+(x) quantidade de material didático que deve ser entregue;
+
+-> Um arquivo csv com a quantidade total de material escolar por subprefeitura para que sejam contabilizados os custos por subprefeitura
+Como padrão dos dados, considere:
+
+(X) nome das colunas em snake_case
+
+(X) strings não devem conter acentos
+
+(X) todas as strings devem estar em maiúsculo
+
+(X) padronização do nome dos logradouros sem abreviação (Ex: R. deve estar como Rua)
+
+(X) latitude e longitude devem conter apenas 5 casas decimais
+
+(X) os ids da escola devem todos ser strings com 3 caracteres (Ex: '024')
